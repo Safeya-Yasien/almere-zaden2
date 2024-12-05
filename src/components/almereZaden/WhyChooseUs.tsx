@@ -1,4 +1,4 @@
-import AboutImage from "@assets/images/about2.jpg";
+import AboutImage from "@assets/images/about2.webp";
 
 const WhyChooseUs = () => {
   return (

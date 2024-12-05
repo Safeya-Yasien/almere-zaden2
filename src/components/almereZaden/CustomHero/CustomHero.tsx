@@ -11,7 +11,7 @@ const CustomHero = ({ prevPage, currentPage }: CustomHeroProps) => {
 
   return (
     <div
-      className="bg-[url('assets/images/custom.jpg')] bg-no-repeat bg-cover bg-center 
+      className="bg-[url('assets/images/custom.webp')] bg-no-repeat bg-cover bg-center 
       text-center flex items-center justify-center h-[350px] overflow-hidden"
     >
       <div className="h-full flex items-end justify-center gap-4 text-4xl text-white">
