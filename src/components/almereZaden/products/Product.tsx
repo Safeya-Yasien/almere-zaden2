@@ -33,7 +33,7 @@ const Product = ({
             src={hoverImage}
             alt={name}
             loading="lazy"
-            className="absolute object-cover rounded-md w-full h-full"
+            className="absolute object-cover rounded-md w-full h-full "
           />
         </div>
       </Link>

@@ -6,11 +6,11 @@ import "swiper/css";
 import "swiper/css/free-mode";
 
 // Import category images dynamically
-import category_1 from "@assets/images/products/cucumber2.webp";
-import category_2 from "@assets/images/products/eggplant2.webp";
-import category_3 from "@assets/images/products/melon2.webp";
-import category_4 from "@assets/images/products/pepper2.webp";
-import category_5 from "@assets/images/products/zucchini.webp";
+import category_1 from "@assets/images/categories/cucumber.webp";
+import category_2 from "@assets/images/categories/eggplant.webp";
+import category_3 from "@assets/images/categories/melon.webp";
+import category_4 from "@assets/images/categories/pepper.webp";
+import category_5 from "@assets/images/categories/zucchini.webp";
 
 // Define the Category interface
 interface ICategory {
@@ -73,7 +73,8 @@ const swiperSettings = {
 
 const Categories = () => {
   return (
-    <div className="-mt-[100px] px-6 md:px-24 bg-gradient-to-r from-sunset-orange via-sunset-orange to-sunshine-yellow">
+    // bg-gradient-to-r from-sunset-orange via-sunset-orange to-sunshine-yellow
+    <div className="-mt-[100px] px-6 md:px-24 ">
       <Swiper {...swiperSettings}>
         {categories.map((category) => (
           <SwiperSlide key={category.id}>

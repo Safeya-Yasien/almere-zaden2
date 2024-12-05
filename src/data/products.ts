@@ -5,9 +5,9 @@ import product_2_2 from "@assets/images/products/product_2_2.webp";
 import melon from "@assets/images/products/melon.webp";
 import product_3_3 from "@assets/images/products/product_3_3.webp";
 import pepper from "@assets/images/products/pepper.webp";
-import product_4_4 from "@assets/images/products/product_3_3.webp";
+import product_4_4 from "@assets/images/products/product_1_1.webp";
 import zucchini from "@assets/images/products/zucchini.webp";
-import product_5_5 from "@assets/images/products/product_3_3.webp";
+import product_5_5 from "@assets/images/products/product_2_2.webp";
 
 export interface IProduct {
   id: string;
