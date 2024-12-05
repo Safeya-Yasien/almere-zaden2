@@ -1,10 +1,4 @@
-import {
-  About,
-  Categories,
-  Hero,
-  Products,
-  Vision,
-} from "@/components/almereZaden";
+import { Categories, Hero } from "@/components/almereZaden";
 
 const Home = () => {
   return (
@@ -12,9 +6,6 @@ const Home = () => {
       <Hero />
       <div className="flex flex-col gap-12  pb-16 ">
         <Categories />
-        <Products />
-        <About />
-        <Vision />
       </div>
     </>
   );

@@ -6,6 +6,7 @@ export default {
       colors: {
         "sunset-orange": "#fba43d",
         "custom-green": "#324700",
+        "sunshine-Yellow": "#F29F58",
       },
       container: {
         center: true,
