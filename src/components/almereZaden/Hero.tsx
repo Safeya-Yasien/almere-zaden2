@@ -39,10 +39,10 @@ const SwiperSlice = ({
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
         <div className="p-4 rounded-md">
-          <h2 className="text-[#FBA43D] text-4xl font-bold text-center mb-2">
+          <h2 className="text-[#ffa500] text-4xl font-bold text-center mb-2">
             {text}
           </h2>
-          <p className="text-sunset-orange text-2xl font-bold text-center">
+          <p className="text-[#ffa500] text-2xl font-bold text-center">
             {desc}
           </p>
         </div>
