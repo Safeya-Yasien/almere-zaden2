@@ -2,81 +2,26 @@ import logo from "@assets/images/logo.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#353d2f] bottom-0 left-0 right-0">
+      <footer className="bg-[#4A3C3C] bottom-0 left-0 right-0">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 px-6 md:px-24">
-          <div className="md:flex md:justify-between">
+          <div className="md:flex md:justify-between items-center">
             <div className="mb-6 md:mb-0">
               <a href="#" className="flex items-center">
-                <img src={logo} className="h-24 me-3" alt="FlowBite Logo" />
+                <img src={logo} className="h-[8rem] me-3" alt="FlowBite Logo" />
               </a>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-              <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
-                  Resources
-                </h2>
-                <ul className="text-gray-400 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <a href="#" className="hover:text-sunset-orange">
-                      Flowbite
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-sunset-orange">
-                      Tailwind CSS
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
-                  Follow us
-                </h2>
-                <ul className="text-gray-400 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <a href="#" className="hover:text-sunset-orange ">
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-text-sunset-orange">
-                      Discord
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
-                  Legal
-                </h2>
-                <ul className="text-gray-400 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <a href="#" className="hover:text-sunset-orange">
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-sunset-orange">
-                      Terms &amp; Conditions
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-400 sm:text-center ">
-              © 2024{" "}
-              <a href="#" className="hover:underline">
-                Almere Zaden
+            <div className="mb-6 md:mb-0">
+              <a
+                href="#"
+                className="text-white hover:text-sunset-orange text-[20px] fw-bold"
+              >
+                Terms &amp; Conditions
               </a>
-              . All Rights Reserved.
-            </span>
+            </div>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
-              <a href="#" className="text-gray-400 hover:text-sunset-orange">
+              <a href="#" className="text-white hover:text-sunset-orange">
                 <svg
-                  className="w-4 h-4"
+                  className="w-6 h-6"
                   aria-hidden="true"
                   xmlns="#"
                   fill="currentColor"
@@ -90,12 +35,9 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Facebook page</span>
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-sunset-orange ms-5"
-              >
+              <a href="#" className="text-white hover:text-sunset-orange ms-5">
                 <svg
-                  className="w-4 h-4"
+                  className="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -105,12 +47,9 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Discord community</span>
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-sunset-orange  ms-5"
-              >
+              <a href="#" className="text-white hover:text-sunset-orange  ms-5">
                 <svg
-                  className="w-4 h-4"
+                  className="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -124,12 +63,9 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Twitter page</span>
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-sunset-orange  ms-5"
-              >
+              <a href="#" className="text-white hover:text-sunset-orange  ms-5">
                 <svg
-                  className="w-4 h-4"
+                  className="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -143,12 +79,9 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">GitHub account</span>
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-sunset-orange  ms-5"
-              >
+              <a href="#" className="text-white hover:text-sunset-orange  ms-5">
                 <svg
-                  className="w-4 h-4"
+                  className="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -163,6 +96,16 @@ const Footer = () => {
                 <span className="sr-only">Dribbble account</span>
               </a>
             </div>
+          </div>
+          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-300 lg:my-8" />
+          <div className="sm:flex sm:items-center sm:justify-center">
+            <span className="text-sm text-white sm:text-center ">
+              © 2024{" "}
+              <a href="#" className="hover:underline">
+                Almere Zaden
+              </a>
+              . All Rights Reserved.
+            </span>
           </div>
         </div>
       </footer>

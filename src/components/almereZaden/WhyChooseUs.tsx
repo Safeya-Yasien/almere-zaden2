@@ -1,20 +1,20 @@
-import AboutImage from "@assets/images/About_Us.jpg";
+import AboutImage from "@assets/images/about2.jpg";
 
 const WhyChooseUs = () => {
   return (
     <section className="container mx-auto my-12 mt-20 px-4 lg:px-8">
-      <div className="flex flex-wrap lg:flex-nowrap items-start gap-8">
+      <div className="flex flex-wrap lg:flex-nowrap items-center gap-8">
         <div className="w-full lg:w-1/2">
           <img
             src={AboutImage}
             loading="lazy"
             alt="About Us - Almere Zaden"
-            className="w-full h-auto max-h-[70vh] object-cover rounded-lg shadow-md"
+            className="w-full  h-auto max-h-[70vh] object-cover rounded-lg shadow-md"
           />
         </div>
 
         <div className="w-full lg:w-1/2">
-          <h2 className="text-3xl lg:text-4xl font-bold text-sunset-orange leading-tight mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-[sunset-orange] leading-tight mb-4">
             Welcome to Almere Zaden, where our passion for high-quality
           </h2>
           <p className="text-gray-600 text-base lg:text-lg leading-relaxed mb-4">

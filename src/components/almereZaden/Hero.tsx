@@ -8,8 +8,11 @@ const Hero = () => {
   return (
     <Swiper className="w-[100%] m-0 h-[calc(100vh-80px)]">
       <SwiperSlide>
-        <SwiperSlice image={swiper1} text={`Almere Zaden`} />
-        <br />
+        <SwiperSlice
+          image={swiper1}
+          text={`Almere Zaden`}
+          desc={`From The Netherlands to the world`}
+        />
         <p>From</p>
       </SwiperSlide>
     </Swiper>
@@ -17,7 +20,15 @@ const Hero = () => {
 };
 export default Hero;
 
-const SwiperSlice = ({ image, text }: { image: string; text: string }) => {
+const SwiperSlice = ({
+  image,
+  text,
+  desc,
+}: {
+  image: string;
+  text: string;
+  desc: string;
+}) => {
   return (
     <div className="relative">
       <img
@@ -28,9 +39,12 @@ const SwiperSlice = ({ image, text }: { image: string; text: string }) => {
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
         <div className="p-4 rounded-md">
-          <h2 className="text-white text-4xl font-bold text-center lg:w-[90%] ">
+          <h2 className="text-[#FBA43D] text-4xl font-bold text-center mb-2">
             {text}
           </h2>
+          <p className="text-sunset-orange text-2xl font-bold text-center">
+            {desc}
+          </p>
         </div>
       </div>
     </div>
