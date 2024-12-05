@@ -23,7 +23,7 @@ const Header = () => {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={logo} className="mr-3  h-[9rem]" alt="Logo" />
+            <img src={logo} className="mr-3  h-[7rem]  sm:h-[9rem]" alt="Logo" />
           </Link>
 
           {/* Hamburger Button */}
