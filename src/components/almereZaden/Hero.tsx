@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import swiper1 from "@assets/images/hero.jpg";
+import swiper1 from "@assets/images/hero.webp";
 
 import "swiper/css";
 
