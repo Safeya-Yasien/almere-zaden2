@@ -32,8 +32,7 @@ const categories: ICategory[] = [
 const CategoryCard = ({ category }: { category: ICategory }) => (
   <Link
     to={`/products/${category.id}`}
-    // bg-gradient-to-l from-sunset-orange via-sunset-orange to-sunshine-yellow
-    className="bg-white  shadow-[0px_0px_10px_0px]  rounded-lg p-4 flex flex-col group transition-transform transform hover:scale-105"
+    className="bg-white  shadow-[0px_0px_10px_0px] bg-gradient-to-l from-sunset-orange via-sunset-orange to-sunshine-yellow rounded-lg p-4 flex flex-col group transition-transform transform hover:scale-105"
   >
     <div className="bg-[#F5F5F5]  w-full h-full flex flex-col items-center justify-center gap-6 p-4 relative z-10 before:absolute before:w-full before:h-0 before:-z-10 before:top-0 before:bg-[#CEDCC5] before:transition-all before:duration-500 group-hover:before:h-[50%]">
       <div className="overflow-hidden h-[170px] w-[160px] flex items-center justify-center mx-auto">
@@ -73,7 +72,6 @@ const swiperSettings = {
 
 const Categories = () => {
   return (
-    // bg-gradient-to-r from-sunset-orange via-sunset-orange to-sunshine-yellow
     <div className="-mt-[100px] px-6 md:px-24 ">
       <Swiper {...swiperSettings}>
         {categories.map((category) => (
