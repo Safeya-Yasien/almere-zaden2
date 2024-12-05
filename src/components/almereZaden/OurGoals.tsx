@@ -1,4 +1,3 @@
-import aboutBg from "@assets/images/about-bg.webp";
 import {
   FaGlobe,
   FaCheckCircle,
@@ -56,13 +55,10 @@ const Goals = [
 
 const OurGoals = () => {
   return (
-    <section
-      className="py-10 bg-[#fdf7ee] mt-5"
-      style={{ backgroundImage: `url(${aboutBg})` }}
-    >
+    <section className="py-10  mt-5">
       <div className="container mx-auto px-6 lg:px-12 text-center">
         <div className="mb-10">
-          <h2 className="text-4xl font-bold text-sunset-orange">Our Goals</h2>
+          <h2 className="text-4xl font-bold text-[#4A3C3C]">Our Goals</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {Goals.map((Goal, index) => (

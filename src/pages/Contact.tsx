@@ -1,6 +1,11 @@
+import { ContactUs, CustomHero } from "@/components/almereZaden";
+
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
-export default Contact
+    <>
+      <CustomHero prevPage="Home" currentPage="Contact" />
+      <ContactUs />
+    </>
+  );
+};
+export default Contact;

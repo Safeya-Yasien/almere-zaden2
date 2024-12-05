@@ -9,7 +9,7 @@ import CustomHero from "./CustomHero/CustomHero";
 import OurGoals from "./OurGoals";
 import WhyChooseUs from "./WhyChooseUs";
 import Product from "./products/Product";
-
+import ContactUs from "./ContactUs";
 export {
   Hero,
   Vision,
@@ -20,5 +20,7 @@ export {
   About,
   CustomHero,
   OurGoals,
-  WhyChooseUs,Product
+  WhyChooseUs,
+  Product,
+  ContactUs,
 };

@@ -18,12 +18,12 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 shadow-[0_5px_4px_-1px_rgba(145,158,171,0.2)]">
-      <nav className=" border-gray-200  px-4 lg:px-6  bg-[#fff] h-[80px]">
+    <header className="fixed top-0 left-0 right-0 z-40">
+      <nav className=" border-gray-200  px-4 lg:px-6  bg-[#4A3C3C] h-[150px]">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={logo} className="mr-3  h-20" alt="Logo" />
+            <img src={logo} className="mr-3  h-[9rem]" alt="Logo" />
           </Link>
 
           {/* Hamburger Button */}
@@ -68,7 +68,7 @@ const Header = () => {
           <div
             className={`${
               isMenuOpen ? "block" : "hidden"
-            } justify-between items-center w-full lg:flex lg:w-auto lg:order-1  pl-[30px] mt-[10px] duration-75 bg-white`}
+            } justify-between items-center w-full lg:flex lg:w-auto lg:order-1  pl-[30px] mt-[10px] duration-75 bg-[#4A3C3C]`}
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-4 font-medium text-[20px] lg:flex-row lg:space-x-8 lg:mt-0">
@@ -83,7 +83,7 @@ const Header = () => {
                      ${
                        isActive
                          ? "text-sunset-orange before:w-full"
-                         : "text-[#145333] before:w-0"
+                         : "text-[#fff] before:w-0"
                      } hover:text-sunset-orange hover:before:w-full`
                     }
                   >

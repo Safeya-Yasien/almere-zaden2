@@ -1,32 +1,30 @@
 import { Link } from "react-router-dom";
 
-const CustomHero = ({
-  prevPage,
-  currentPage,
-}: {
+interface CustomHeroProps {
   prevPage: string;
   currentPage: string;
-}) => {
-  let linkTo = `/${prevPage.toLowerCase()}`;
+}
 
-  if (prevPage.toLocaleLowerCase() === "home") {
-    linkTo = "/";
-  }
+const CustomHero = ({ prevPage, currentPage }: CustomHeroProps) => {
+  const linkTo =
+    prevPage.toLowerCase() === "home" ? "/" : `/${prevPage.toLowerCase()}`;
 
   return (
     <div
-      className="bg-[url('assets/images/single-product-page.webp')] bg-no-repeat bg-cover bg-center 
-  text-center flex items-center justify-center
-  h-[250px] overflow-hidden "
+      className="bg-[url('assets/images/custom.jpg')] bg-no-repeat bg-cover bg-center 
+      text-center flex items-center justify-center h-[350px] overflow-hidden"
     >
-      <div className="h-full flex items-center justify-center gap-4 text-4xl text-white ">
-        <Link to={linkTo} className="">
+      <div className="h-full flex items-end justify-center gap-4 text-4xl text-white">
+        <Link to={linkTo} className="mb-12 hover:underline">
           {prevPage}
         </Link>
-        <span> / </span>
-        <span className="text-sunset-orange font-bold ">{currentPage}</span>
+        <span className="mb-12">/</span>
+        <span className="text-sunset-orange font-bold mb-12">
+          {currentPage}
+        </span>
       </div>
     </div>
   );
 };
+
 export default CustomHero;

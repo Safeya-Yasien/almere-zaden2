@@ -30,9 +30,6 @@ const About = () => {
               excellence of Dutch-bred varieties, contributing to healthier
               crops and thriving communities.
             </p>
-            <button className="bg-transparent hover:bg-sunset-orange text-sunset-orange font-semibold hover:text-white py-2 px-4 border border-sunset-orange hover:border-transparent rounded mt-8">
-              Read more
-            </button>
           </div>
 
           <div className="flex justify-center">
