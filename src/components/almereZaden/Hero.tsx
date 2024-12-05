@@ -35,7 +35,6 @@ const SwiperSlice = ({
         src={image}
         alt="swiper1"
         className="w-full h-[90vh] object-cover"
-        loading="lazy"
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
         <div className="p-4 rounded-md">
